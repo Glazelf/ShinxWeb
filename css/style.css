@@ -1,6 +1,7 @@
 body {
-    background-image: url(../images/cave.png);
+    background-image: url(../images/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-}
+    font-size: 20px;
+};
