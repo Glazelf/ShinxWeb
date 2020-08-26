@@ -1,30 +1,37 @@
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
 body {
     background-image: url(../images/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
-.content{
-    position: relative;
+.main {
+    display: flex;
     text-align: center;
+    min-height: 100vh;
     color: #000000;
+    position: relative;
 }
 
-.header{
-    flex: 1 0 auto;
+.section {
+    flex: auto;
+    margin-left: 15%;
+    margin-top: 15%;
+    font-size: 100%;
 }
 
 .footer {
-    flex-shrink: 0;
+    margin-top: auto;
+    margin-right: 45%;
     position: relative;
-    width: 100%;
-    padding-top: 30%;
-}
-
-.footerText { 
-    text-align: center;
 }

@@ -29,13 +29,13 @@ window.onload = function () {
     //         disabledEvent(e);
     //     };
     // }, false);
-    function disabledEvent(e) {
-        if (e.stopPropagation) {
-            e.stopPropagation();
-        } else if (window.event) {
-            window.event.cancelBubble = true;
-        };
-        e.preventDefault();
-        return false;
-    };
+    // function disabledEvent(e) {
+    //     if (e.stopPropagation) {
+    //         e.stopPropagation();
+    //     } else if (window.event) {
+    //         window.event.cancelBubble = true;
+    //     };
+    //     e.preventDefault();
+    //     return false;
+    // };
 };
